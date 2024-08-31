@@ -1,0 +1,89 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4a0e8f, #c70039);
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.cta-button {
+  background-color: #ff6b35;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e55a2b;
+}
+
+/* Section styles */
+.games-section-wrapper,
+.team-section,
+.testimonials-section,
+.pricing-section,
+.contact-section {
+  border-radius: 20px;
+  margin: 40px 20px;
+  overflow: hidden;
+}
+
+.games-section,
+.team-section,
+.testimonials-section,
+.pricing-section,
+.contact-section {
+  padding: 40px;
+}
+
+/* Alternating section backgrounds */
+.games-section,
+.testimonials-section,
+.contact-section {
+  background-color: white;
+  color: #333;
+}
+
+.team-section,
+.pricing-section {
+  background: linear-gradient(135deg, #4a0e8f, #c70039);
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .games-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.meet-the-team {
+  padding: 2rem;
+}
+
+.subscription {
+  padding: 2rem;
+}

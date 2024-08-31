@@ -1,0 +1,32 @@
+.teamSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #4a0e8f, #c70039);
+  color: white;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.teamCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.teamCard img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.teamCard:hover {
+  transform: scale(1.05);
+}

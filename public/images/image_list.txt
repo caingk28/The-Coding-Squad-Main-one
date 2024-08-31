@@ -1,0 +1,18 @@
+// photos used for the team section
+
+cainTeam.jpg
+lanceTeam.jpg
+raiTeam.jpg
+sheaTeam.jpg
+
+// images used for the hero 
+hero.png
+
+// images used for the games
+memory.png
+snake.png
+spaceinvaders.png
+mazegame.png
+
+// images used for logo 
+logo.png

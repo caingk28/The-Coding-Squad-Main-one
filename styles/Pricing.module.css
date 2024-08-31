@@ -1,0 +1,31 @@
+.pricingSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #4a0e8f, #c70039);
+  color: white;
+}
+
+.pricingContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pricingCard, .pricingInfo {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.price {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .pricingCard, .pricingInfo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

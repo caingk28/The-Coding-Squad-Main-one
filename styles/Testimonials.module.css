@@ -1,0 +1,23 @@
+.testimonialsSection {
+  padding: 80px 0;
+  background-color: white;
+  color: #333;
+}
+
+.testimonialsSection h2 {
+  color: #4a0e8f;
+  text-align: center;
+}
+
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.testimonialCard {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

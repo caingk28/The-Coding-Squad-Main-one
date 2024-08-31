@@ -1,0 +1,29 @@
+.contactSection {
+  padding: 80px 0;
+  background-color: white;
+  color: #333;
+}
+
+.contactSection h2 {
+  color: #4a0e8f;
+  text-align: center;
+}
+
+.contactSection form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contactSection input,
+.contactSection textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactSection textarea {
+  height: 150px;
+}
